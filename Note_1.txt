@@ -35,4 +35,7 @@ Examples of Popular APIs
  * Google API (developers.google.com)
  * ACCuWeather API - providing subscribers with access to location based weather. (api.accuweather.com/developers)
  * Instagram API ( to getting photos  and display them on website or app - Instagram.com/developer)
- *  Twitter API (providing three types which are : REST API, search API, streaming API)
+ * Twitter API (providing three types which are : REST API, search API, streaming API)
+ * AT&T - providing a wide range of APIs that exposes thier internal assets and services, they can be used to build apps to send messages, locate users, do text to speech and speech to text etc (developer.att.com/apis)
+
+The Difference Between a Web Service and a Web API
