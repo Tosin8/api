@@ -12,4 +12,27 @@ APIs are different from Web Sites
  * Websites publish information that can be consumed by a user, but don't have contracts ( the layout, content and the look and feel can change without prior notice to the users). API - has a well defined contracts, other applications depend on this to use it. If the contract changes , there will be a ripple effect on the apps built using the contract, changes could be in the business logic, or the back-end infrastructure or the interface defining the API contract. 
 
 Defining an API and its characteristics
- *  
+ * An API defines the contract of a software components in terms of the protocol, data format and the endpoint for two computer applications to communicate with each other over a network. ( In summary: APIs are a set of requirements that govern how two applications can talk to each other). 
+ * An APi provides a framework for building SERVICES that can be consumed over HTTP by a wide range of clients running on different platforms eg. iPhone, Tablets, Connected Cars etc. 
+
+ The following info on API should be made available by the API provider: 
+  * The functionality provided
+  * The location where the API can be accessed. (an HTTP Url)
+  * The i/o parameters (names, message format and data types) for the API
+  * The SLA ( service-level agreement) that the API provider uses eg. response time, throughput,availability etc
+  * Documentation to help understanding the API
+  * The technical requirements about the rate limits that controls the number of requests that control the number of requests that an app or user can make within a given period. 
+
+Types of API. 
+ * Divided into two categories: Public and Private API (partner API - used for B2B partner integration and internal APIs - used for internal application integration and B2E apps)
+ An internal APi can ease and streamline internal application integrations, and to be used for internal developers for building mobile apps for an organization's own use. 
+ * Cons of Public APIs: 
+   - It can significantly add a lot of management overhead. Example: When a lot of third party apps are actively using an API, it is challenging to upgrade the interface without impacting the apps that are in production. 
+   - Increase security risks : whenever an enterprise uses public API, they used to build in additional layers of security to protect their systems from hackers via these Apis. 
+
+Examples of Popular APIs
+ * Facebook API (developers.facebook.com)
+ * Google API (developers.google.com)
+ * ACCuWeather API - providing subscribers with access to location based weather. (api.accuweather.com/developers)
+ * Instagram API ( to getting photos  and display them on website or app - Instagram.com/developer)
+ *  Twitter API (providing three types which are : REST API, search API, streaming API)
