@@ -39,3 +39,18 @@ Examples of Popular APIs
  * AT&T - providing a wide range of APIs that exposes thier internal assets and services, they can be used to build apps to send messages, locate users, do text to speech and speech to text etc (developer.att.com/apis)
 
 The Difference Between a Web Service and a Web API
+ * Web services - as a method of communicaiton Between two electronic devices over a network.- a software system designed  to support interoperable machine to machine interaction over a network. 
+ * A web API is a special kind of web service where the emphasis has been moving to a simpler Rerepresentational State Transfer REST based communications.  
+ * A web API can be considered as a subset of web service. A web service has an interface described in a machine processable format. Other systems interact with the web service in a manner prescribed by its description using SOAP (Simple Object Access Protocol) messages, typically conveyed using HTTP with an XML serilazation in conjunction with other web related standards. 
+ * REST is another architectural pattern , an alternative to SOAP. 
+ * RESTful applications use the HTTP built in headers to carry meta information and use the GET, POST, PUT and DELETE to perform CRUD operations. 
+ * It is resource oriented and uses clean URL. The body can be JSON/XML. 
+ ABOUT SOAP ? 
+  * It typically use HTTP as a transport protocol ( not mandatory)
+  * It can be over JMS/FTP/SMTP or any layer 7 protocol. 
+  * It's message structure consists of an SOAP envelope, inside of which are the headers and the body ( contains the actual information to be sent)
+  * Based on the standard XML format, designed especially to transport and store structured data. 
+  * It's a mature standard and is heavily used in many systems, but it does not use many of the functionalities built into HTTP.  
+
+How are APIs different from SOA? 
+ 
