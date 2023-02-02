@@ -61,4 +61,5 @@ How are APIs different from SOA?
      - SOA helps in the agility and pace of the delivery of a service while API helps in the pace of innovation for building apps. 
      - SOA emerged as a means to shield service consumers from backend changes while API can provide a layer to shield the services from the rapidly changing demands of front-end apps. 
 
-  * Services are the means by which providers codify the base capabilities of their domains. (APIs are the way in which those capabilities are repackaged, productized and shared in an easy to use format). APIs and services are complementary rather than contradictory,and being applied together, dramatically increase the overall effectiveness of enterprise innovation.  
+  * Services are the means by which providers codify the base capabilities of their domains. (APIs are the way in which those capabilities are repackaged, productized and shared in an easy to use format). APIs and services are complementary rather than contradictory,and being applied together, dramatically increase the overall effectiveness of enterprise innovation. 
+  * At technological level- [SOA is related to XML and SOAP while API is related to REST and JSON] while [API is described using Swagger or RAML]
