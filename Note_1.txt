@@ -63,3 +63,14 @@ How are APIs different from SOA?
 
   * Services are the means by which providers codify the base capabilities of their domains. (APIs are the way in which those capabilities are repackaged, productized and shared in an easy to use format). APIs and services are complementary rather than contradictory,and being applied together, dramatically increase the overall effectiveness of enterprise innovation. 
   * At technological level- [SOA is related to XML and SOAP while API is related to REST and JSON] while [API is described using Swagger or RAML]
+
+The API value chain 
+ * API provides a means to expose business assets to the end user. 
+ * The business asset marks the beginning of the API value chain and making it more available for others to use. It can be any data or business functionality. It can range from product catalogs,to customer information, to twitter feeds, to postal tracking information, to payment and banking services. 
+
+Business models for APIs
+ * APIs form the foundation of digital business. The biz model to adopt depends on the asset being exposed as an API. The asset can be data, the biz logic or the presentation. 
+
+
+
+Chapter 2 : API managment 
