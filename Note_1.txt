@@ -53,5 +53,12 @@ The Difference Between a Web Service and a Web API
   * It's a mature standard and is heavily used in many systems, but it does not use many of the functionalities built into HTTP.  
 
 How are APIs different from SOA? 
-  SOA: service-oriented architecture. ( its core concept is teh notion of service)
- * A service can be defined as a logical repre
+  SOA: service-oriented architecture. ( its core concept is the notion of service)
+ * A service can be defined as a logical Rerepresentation of a repeatable activity that has a  specific outcome. 
+ * SOA defines the architecture and principles for designing services for an application to increase its reuse. (Services are well contained and have a well defined interface that defines the contract between the service provider and the consumer). 
+ * API are designed  with consumer needs in mind. 
+ * The difference from SOA: 
+     - SOA helps in the agility and pace of the delivery of a service while API helps in the pace of innovation for building apps. 
+     - SOA emerged as a means to shield service consumers from backend changes while API can provide a layer to shield the services from the rapidly changing demands of front-end apps. 
+
+  * Services are the means by which providers codify the base capabilities of their domains. (APIs are the way in which those capabilities are repackaged, productized and shared in an easy to use format). APIs and services are complementary rather than contradictory,and being applied together, dramatically increase the overall effectiveness of enterprise innovation.  
