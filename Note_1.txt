@@ -74,3 +74,5 @@ Business models for APIs
 
 
 Chapter 2 : API management 
+APIS forms the window into an enterprise's data and services, they allow applications to easily communicate with each other using a lightweight protocol like HTTP. 
+* Developers use APIs to write applications that interact with back end system. 
