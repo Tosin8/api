@@ -73,4 +73,4 @@ Business models for APIs
 
 
 
-Chapter 2 : API managment 
+Chapter 2 : API management 
