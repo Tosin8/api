@@ -78,3 +78,11 @@ APIS forms the window into an enterprise's data and services, they allow applica
 * Developers use APIs to write applications that interact with back end system. 
 * Once an API has been created, it needs to be managed using an API management platform. 
 * An API management plaform helps an organization publish APIs to internal, partner, and external developers to unlock the unique potential of their assets - providing the core capabilities to ensure a successful  API program throught developer engagement, biz insights, analtyics, security and protection. 
+
+What are API management offerings: 
+ - Analyze: business performance, - Monetize : Digital Assets, - Accelerate :Digital channel,- Drive -adoption. 
+
+ API management plaform provides these capabilities: 
+  - ApI gateway services
+  - analtyics service
+  - Developer portal
