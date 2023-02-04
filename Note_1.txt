@@ -83,6 +83,7 @@ What are API management offerings:
  - Analyze: business performance, - Monetize : Digital Assets, - Accelerate :Digital channel,- Drive -adoption. 
 
  API management plaform provides these capabilities: 
-  - ApI gateway services
-  - analtyics service
-  - Developer portal
+  - Developer enablement for APIs
+  - Secure, reliable and flexible communicaiton
+  - Api lifecyle management
+  - API auditing, logging and analtyics. 
