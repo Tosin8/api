@@ -94,6 +94,7 @@ An API management platform provides these capabilities as three major types of s
  -  • Developer portals provide capabilities for developer and app registration and onboarding, API documentation, community management, and API monetization.
 
  Secure, Reliable, and Flexible Communication
-
+ *API gateway
+* API security
 
  
