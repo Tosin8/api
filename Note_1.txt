@@ -87,3 +87,10 @@ What are API management offerings:
   - Secure, reliable and flexible communicaiton (authentication and authoirzation, threat detection, data privacy, traffic management, interface translation, service orchestration and routing)
   - Api lifecyle management (api publication, version management, change notification, issue management)
   - API auditing, logging and analtyics (activity logging, user auditing, biz value reporting, contract management, advanced analtyics, service level monitoring ) 
+
+An API management platform provides these capabilities as three major types of services which are : 
+ - • API gateway services allow you to create and manage APIs from existing data and services. They allow you to add security, traffic management, interface translation, orchestration, and routing capabilities into your API. 
+ - • Analytics services monitor traffic from individual apps and provide business with insight and operational metrics, API and app performance, and developer engagement metrics.
+ -  • Developer portals provide capabilities for developer and app registration and onboarding, API documentation, community management, and API monetization.
+
+ 
