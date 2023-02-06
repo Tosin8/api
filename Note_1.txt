@@ -119,7 +119,9 @@ API helps digital apps to communicate with back-end services and the core of API
      * authorization - It controls the level of access that is provided to an app making an API call. When an app makes an API call,it normally passses an OAuth access token in the HTTP headers. It controls which ApI resources and methods that an app can invoke. An access token can be associated with one or more scopes, each access token may have an expiry duration that controls the duration for which the token is valid, if the token is expired, a new access token would be required to be generated. 
 
      * identity mediation - API mgt must have the capabilities to integerate  the back end IDM platforms and do indentity mediation. The backend services may be secured using SAML or any other WS-security headers. 
-     * data privacy
+
+     * data privacy - sensitive data in transit should be encrypted. if data tends to be logged anywhere, it must be masked. Data privacy can be achieved through ENCRYPTION and DATA MASKING. sensitive data needs to be encrypted with digital certificates in transit. The API mgt should have support for SSL/TLS. 
+     
      * key and certificate mgt
      * DoS protection
      * Threat detection
