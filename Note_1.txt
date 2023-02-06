@@ -123,7 +123,12 @@ API helps digital apps to communicate with back-end services and the core of API
      * data privacy - sensitive data in transit should be encrypted. if data tends to be logged anywhere, it must be masked. Data privacy can be achieved through ENCRYPTION and DATA MASKING. sensitive data needs to be encrypted with digital certificates in transit. The API mgt should have support for SSL/TLS. 
 
      * key and certificate mgt - the provision of capacity to manage keys and certificates required for data privacy. 
-     * DoS (denial of attack) protection - 
-     * Threat detection
+     * DoS (denial of attack) protection -APis are vulnerable to attacks, and it tends to open valuable data and assets outside the firewall of the enterprise and being attack through the means of pumping unexpected high traffic through the APi.  
+     * Threat detection - Content based attacks can be in form of malformed XML/JSON, malicious scripts or SQL within the payload. Error visualization capabilities can help detect any hacker attempting to find an exploitable weakness in APIs.
+
+* API Traffic mgt - depending on the nature of data and sercies provided by the API, traffic mgt offers a diff. biz value to diff. classes of customers. providing the following capabilities for traffic mgt - 
+  - Consumption quota: defines the number of API calls that an app is allowed to make to the backend over a given time interval. A common purpose for a quota is to divide developers into categories, each having different quotea and relationship with the API. Example: free and paid developers having difference number of calls. 
+  - Spike arrest: identify an unexpected rise in the API traffic, helping to protect backend systems that are not designed to handle a high load. API traffic volume exceeding the spike arrest limit may be dropped by the API mgt platform to protect backend systems in the event of DoS attacks. 
+  - 
 
  
