@@ -129,6 +129,9 @@ API helps digital apps to communicate with back-end services and the core of API
 * API Traffic mgt - depending on the nature of data and sercies provided by the API, traffic mgt offers a diff. biz value to diff. classes of customers. providing the following capabilities for traffic mgt - 
   - Consumption quota: defines the number of API calls that an app is allowed to make to the backend over a given time interval. A common purpose for a quota is to divide developers into categories, each having different quotea and relationship with the API. Example: free and paid developers having difference number of calls. 
   - Spike arrest: identify an unexpected rise in the API traffic, helping to protect backend systems that are not designed to handle a high load. API traffic volume exceeding the spike arrest limit may be dropped by the API mgt platform to protect backend systems in the event of DoS attacks. 
-  - 
+  - Usage throttling: provides a mechanism to slow down subsequent API calls, helping to improve the overall performance and reduce impacts duing peak hours. Making sure that the API infrastructure is not slowed down by high volumes of requests from a certain group of customers or apps. 
+  - Traffic prioritization : helps the API mgt platform to determine which class of customers should be given higher priorites. API calls from high priority customers shold be processed first. 
+
+* Interface translation - 
 
  
