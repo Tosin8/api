@@ -101,7 +101,17 @@ In summary: API has 3 management platform services:
  Secure, Reliable, and Flexible Communication
 API helps digital apps to communicate with back-end services and the core of API is COMMUNICATION and API must create these 3 features of commnication: being secure,reliable and flexible. 
 
- *API gateway - it provides the services that form the core capabilities required for API commnications between the back end services and digital apps. 
+ *API gateway 
+    - it provides the services that form the core capabilities required for API commnications between the back end services and digital apps. 
+    - it helps to expose, secure and manage backend data and services as RESTful API. 
+    - It provides a framework to create a facade (face) in front of the backend service. The face intercepts the API requests to enforce security, validate data, tranform messages, throttle traffic and route it to the backend service. 
+    - The static response may be cached to improve the performance. 
+    - The gateway can optionally orchestrate requests between multiple backend services and also connect to database to service the requests. 
+
+    Summary: of the capabilities of API gateway - (To secure, Validate, throttle, Transform, Orchestrate, Cache and Route). 
+  All these features/ functionalities can be implemented in a gateway, mostly through CONFIGURATION and SCRIPTING extensions. 
+
 * API security
+  - it provides access to valuable and protected data and assets. 
 
  
