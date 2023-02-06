@@ -145,5 +145,5 @@ API helps digital apps to communicate with back-end services and the core of API
   - Connection pooling: ability to maintain a pool of connections to the backend service and improves overall performance. 
   - Load balancing: it helps to distribute API traffic to the backend services. Based on the selected algorithm, the requests must be routed to the appropriate resoure that is hosting the service. 
 
-* Service orchestration - 
+* Service orchestration - the process by which API gateway need to invoke multiple backend service ina particular sequence or in parallel and then send an aggregated response to the client. 
  
