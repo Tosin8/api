@@ -115,9 +115,10 @@ API helps digital apps to communicate with back-end services and the core of API
   - it provides access to valuable and protected data and assets. API mgt platform address the following aspects of API security: 
      * authentication - it's the process of uniquely determining and validating the identity of a client. An app acts like a client making an API call, a software that consumes access to enterprise assets, data and services. The app key serves as an identity for the app making a call to the API.It's normally issued and managed via the API mgt plaform of the API provider. An app key is also known as an API key,an app ID or a client ID. 
      The API mgt plaform must have the ability to issue, track and revoke the app key and the service of authentication may require integration with IDENTITY MGT SYSTEM that controls user access to applications and other services. 
-     
-     * authoirzation
-     * identity mediation
+
+     * authorization - It controls the level of access that is provided to an app making an API call. When an app makes an API call,it normally passses an OAuth access token in the HTTP headers. It controls which ApI resources and methods that an app can invoke. An access token can be associated with one or more scopes, each access token may have an expiry duration that controls the duration for which the token is valid, if the token is expired, a new access token would be required to be generated. 
+
+     * identity mediation - 
      * data privacy
      * key and certificate mgt
      * DoS protection
