@@ -97,9 +97,11 @@ In summary: API has 3 management platform services:
  - Developer services which are: Developer onboarding, API documentation, Community management and Monetization. 
  - Analytics services which are: biz metrics, operational metrics, developer metrics and app performance. 
  - API gateway services which are: API security, Traffic management, Interface translation and 'orchestration and routing'
- 
+
  Secure, Reliable, and Flexible Communication
- *API gateway
+API helps digital apps to communicate with back-end services and the core of API is COMMUNICATION and API must create these 3 features of commnication: being secure,reliable and flexible. 
+
+ *API gateway - it provides the services that form the core capabilities required for API commnications between the back end services and digital apps. 
 * API security
 
  
