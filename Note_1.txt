@@ -156,7 +156,9 @@ An API GATEWAY should provide the capability to meause, monitor and report aPI u
  * User Auditing - it helps the API admistrator review historical information to analyze who accesses an API, when it is accessed, how it is used and how many calls are made from the various consumers of the API. 
 
  Chapter 3 - Designing a RESTful APi interface. 
- 
+ - REST relies on stateless, cacheable and client server communication protocols such as HTTP. 
+
+ REST principles - REST is a set of design principles for building scalable web services. 
 
 
  
