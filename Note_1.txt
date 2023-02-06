@@ -149,5 +149,14 @@ API helps digital apps to communicate with back-end services and the core of API
 
 
 API Auditing, logging and analtyics. 
+An API GATEWAY should provide the capability to meause, monitor and report aPI usage analytics. Good biz friendly dashboards for APi analtyics measure and improve biz value. 
+ * API analtyics - it provide with information to make future decisions about API. 
+
+ * Activity Logging - the plaform should capture and provide information on who is using an API, the types of apps and devices the API are being called from and which geographical region is the source of the API traffic. 
+ * User Auditing - it helps the API admistrator review historical information to analyze who accesses an API, when it is accessed, how it is used and how many calls are made from the various consumers of the API. 
+
+ Chapter 3 - Designing a RESTful APi interface. 
+ 
+
 
  
