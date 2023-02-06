@@ -121,9 +121,9 @@ API helps digital apps to communicate with back-end services and the core of API
      * identity mediation - API mgt must have the capabilities to integerate  the back end IDM platforms and do indentity mediation. The backend services may be secured using SAML or any other WS-security headers. 
 
      * data privacy - sensitive data in transit should be encrypted. if data tends to be logged anywhere, it must be masked. Data privacy can be achieved through ENCRYPTION and DATA MASKING. sensitive data needs to be encrypted with digital certificates in transit. The API mgt should have support for SSL/TLS. 
-     
-     * key and certificate mgt
-     * DoS protection
+
+     * key and certificate mgt - the provision of capacity to manage keys and certificates required for data privacy. 
+     * DoS (denial of attack) protection - 
      * Threat detection
 
  
