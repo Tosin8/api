@@ -137,6 +137,13 @@ API helps digital apps to communicate with back-end services and the core of API
    - Protocol translation: most backend systems that host services provide a SOAP interface for consumers. SOAP isn't a protocol that is suitable for APIs to build apps for digital services. the protocol transformation from SOAP to REST provides a lightweight interface for consumers. 
    - Service and data mapping: being able to provide a graphical Rerepresentation of the different  backend serice components that maps to provide an API service. 
 
-* Caching - a mechanism to optimize performance by responding to requests with static responses stored in memory. An Api proxy can store backend responses that don't change frequently in memory. 
+* Caching - a mechanism to optimize performance by responding to requests with static responses stored in memory. An Api proxy can store backend responses that don't change frequently in memory. Caching helps to improve an API's performance through reduce latency and network traffic. 
 
+* Service Routing - the routing requests from consumers to the right backend service providing the biz functionalities. Supporting the right capabilities: 
+  - URL mapping: It allows the plaform to change the path in the incoming URL to that of the backend service. URL mapping happens at runtime so that the requested resource is retrieved by the consumer via service dispatching. 
+  - Service dispatching: allows API mgt to select and invoke the right backend service. 
+  - Connection pooling: ability to maintain a pool of connections to the backend service and improves overall performance. 
+  - Load balancing: it helps to distribute API traffic to the backend services. Based on the selected algorithm, the requests must be routed to the appropriate resoure that is hosting the service. 
+
+* Service orchestration - 
  
