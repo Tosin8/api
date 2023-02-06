@@ -137,6 +137,6 @@ API helps digital apps to communicate with back-end services and the core of API
    - Protocol translation: most backend systems that host services provide a SOAP interface for consumers. SOAP isn't a protocol that is suitable for APIs to build apps for digital services. the protocol transformation from SOAP to REST provides a lightweight interface for consumers. 
    - Service and data mapping: being able to provide a graphical Rerepresentation of the different  backend serice components that maps to provide an API service. 
 
-* Caching - 
+* Caching - a mechanism to optimize performance by responding to requests with static responses stored in memory. An Api proxy can store backend responses that don't change frequently in memory. 
 
  
