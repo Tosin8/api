@@ -159,6 +159,13 @@ An API GATEWAY should provide the capability to meause, monitor and report aPI u
  - REST relies on stateless, cacheable and client server communication protocols such as HTTP. 
 
  REST principles - REST is a set of design principles for building scalable web services. 
+ 6 Constraints for building RESTful architecture : 
+  - Uniform interface
+  - Client server
+  - stateless
+  - Cache
+  - Layered system
+  - Code on demand
 
 
  
