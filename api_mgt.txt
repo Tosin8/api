@@ -162,8 +162,8 @@ An API GATEWAY should provide the capability to meause, monitor and report aPI u
  6 Constraints for building RESTful architecture : 
   - Uniform interface : it defines the communication contract between client and the server , helping to decouple the architecture. Client and server applications can be developed independently as long as they abide by the interface. Each resource has it own unique URI. 
   - Client server : The client server Constraints builds a loosely coupled and scalable web architecture. As long as the client and the server follow a Uniform inteface they can be developed independently using any language or technicology. 
-  - stateless : it indicates that a web server is not required to remeber the state of the client application. 
-  - Cache
+  - Stateless : it indicates that a web server is not required to remember the state of the client application. All relevant contextual information should be sent by the client application in the request to the server forall its interaction. 
+  - Cache: 
   - Layered system
   - Code on demand
 
