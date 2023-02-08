@@ -168,6 +168,7 @@ An API GATEWAY should provide the capability to meause, monitor and report aPI u
   - Code on demand: it enables a web server to Transfer executable programs to a client. It enables to establish a technology coupling between the client and the web server. 
 
   Designing a RESTful API
+  Consideration for designing a REST API interface: * Identification of resources * Manipulation of resources through representation * Self descriptive messages * Hypermedia as teh engine of application state. 
 
 
  
