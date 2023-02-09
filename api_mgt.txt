@@ -197,10 +197,18 @@ An API GATEWAY should provide the capability to meause, monitor and report aPI u
 
   HTTP Verbs for RESTful APIs 
    HTTP verbs form an important part of a RESTful API design. The verbs perform the CRUD operations on the resource as follows: 
-    * POST : to create a new instance of the resource
-    * GET: used to read 
-    * PUT: used to update 
+    * POST : to create a new instance of the resource (it is used to create a subresources, which is subordinate to the parent resource identified by the request URI). On successful execution, of the POST request, the origin server should respond witha  201 created status code. The response should contain a 'Location' header to specify the location of the newly created resource. Making two identical POST request usually results in two resources containing the same entity. 
+    * GET: used to read (used by the client to retrieve information about the requested resource entity identified by the request URI.It should only retrieve data and should never modify the data in any way, it's a read-only method and those not make any changes to the resource data). The server returns the requested data normally in XML/JSON depending on the format requested by the client. The HTTP ACCEPT header is used by the client to specify the expected format of the response. Data is returned only if the conditions described by the header field(s) are satisfied. 
+    On successful execution of the GET request, the server responds with HTTP response code of 200 OK, 404 Not found or 400 bad request status code. 
+    * PUT: used for complete update 
+    * PATCH: used to update an existing resource defination. 
     * DELETE: to delete. 
+  
+  The differences between PUT and POST
+   * recommended to use POST for creating new resources and PUT for updating an already existing resource. 
+   * use POST if the server is responsible for resource name/ID and hence is the URI of the new resouce. PUT may be used for creating a new resurce only when the client is responsible for deciding the new URI(via its resource name/ID) for the resource. 
+   * a POST should be used if the client doesn't or shouldn't know the resulting URI of the new resource before creation. If the resource is already created , PUT should be used to update the resource. 
 
 
+ Chapter 4 - ApI Documentation
  
