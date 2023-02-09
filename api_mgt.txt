@@ -229,4 +229,16 @@ Audience for API documentation
  - IT support specialist (supports the app and interested in the error and troubleshooting information for debugging any issues with the app)
 
  Models for API documentation
+  To making API documentation effective, it should include the following aspects about the API: 
+   - Title (the title should provide the name of the API, used for identification)
+   - Endpoint (It's the entry point for the API, defining the URL that clients need to use to invoke the API)
+   - Method (it defines the HTTP verbs)
+   - URL parameters (it define the parameter names and their format used in the API call as a query string)
+   - Message payload
+   - Header parameters
+   - Response code 
+   - Error code
+   - A sample request and response
+   - Tutorials and walkthrough
+   - Service level agreement
 
