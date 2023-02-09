@@ -211,4 +211,6 @@ An API GATEWAY should provide the capability to meause, monitor and report aPI u
 
 
  Chapter 4 - ApI Documentation
- 
+ The Importance of API documentationlor
+ * API documentation communicates a vast amount of information about the API. 
+
