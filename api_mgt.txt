@@ -189,7 +189,10 @@ An API GATEWAY should provide the capability to meause, monitor and report aPI u
       * Resource should not be too fine grained because they lead to chatty communication between the consumer and the provider. 
 
   URI PATH Design 
-   
+   Every collection and resource in an API has its own URL. It's recommended to design URLs using an alternate combination of collection/resource path segments, relative to the API entry point. 
+
+  URI FORMAT 
+   URI is a compact string of characters for identifying an abstract or physical resource. This identifier can be realized in one of two ways: as a Uniform Resource Locator(URL) or a Uniform Resource Name(URN)
 
 
  
