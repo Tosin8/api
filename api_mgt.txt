@@ -168,7 +168,13 @@ An API GATEWAY should provide the capability to meause, monitor and report aPI u
   - Code on demand: it enables a web server to Transfer executable programs to a client. It enables to establish a technology coupling between the client and the web server. 
 
   Designing a RESTful API
-  Consideration for designing a REST API interface: * Identification of resources * Manipulation of resources through representation * Self descriptive messages * Hypermedia as teh engine of application state. 
+  Consideration for designing a REST API interface: 
+   * Identification of resources - A resource is any web based concept that can be referenced by a unique indentify and manipulatedvia the uniform interface. A resource can be a single or a collection of entities. 
+       Case Study - When designing a REST Api for a travel portal, resources could be customer, reservation,ticket, hotel, flight, bus,car etc. The key abstraction of information in REST is a RESOURCE. A resource is identify by a URI (uniform resource identifier). A URI provides the name and the network address of a resource. 
+   * Manipulation of resources through representation - Clients modify a representation of a resource. The same exact resource may be repesented for different clients. The representation is a way for clients to interact with the resource but it's not the resource itself. 
+       Case Study - For a UI client, it might be represented in HTML format, for application clients, it might be in either JSON/XML format. 
+   * Self descriptive messages - Each message may contain additional information to tell the recipient how to process it. 
+   * Hypermedia as the engine of application state. 
 
 
  
