@@ -212,5 +212,21 @@ An API GATEWAY should provide the capability to meause, monitor and report aPI u
 
  Chapter 4 - ApI Documentation
  The Importance of API documentationlor
- * API documentation communicates a vast amount of information about the API. 
+ * API documentation communicates a vast amount of information about the API. '
+
+ The importance of API documentation should have the following: 
+  - Get users started quickly
+  - Include useful and relevant information
+  - Provide sample code
+  - Document a list of REST endpoints
+  - Document the message payload
+  - Provide response status code and error messages 
+
+Audience for API documentation
+ - CTO (evaluates similar and competing APIS from a biz, tech and monetization perspective), 
+ - App/Integration architect (explores the API to match the requirements for building an app/an integration solution)
+ - App developer (wants to get started using the API with a quick start guide and a detailed tutorial)
+ - IT support specialist (supports the app and interested in the error and troubleshooting information for debugging any issues with the app)
+
+ Models for API documentation
 
