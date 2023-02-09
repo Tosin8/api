@@ -173,8 +173,11 @@ An API GATEWAY should provide the capability to meause, monitor and report aPI u
        Case Study - When designing a REST Api for a travel portal, resources could be customer, reservation,ticket, hotel, flight, bus,car etc. The key abstraction of information in REST is a RESOURCE. A resource is identify by a URI (uniform resource identifier). A URI provides the name and the network address of a resource. 
    * Manipulation of resources through representation - Clients modify a representation of a resource. The same exact resource may be repesented for different clients. The representation is a way for clients to interact with the resource but it's not the resource itself. 
        Case Study - For a UI client, it might be represented in HTML format, for application clients, it might be in either JSON/XML format. 
-   * Self descriptive messages - Each message may contain additional information to tell the recipient how to process it. 
-   * Hypermedia as the engine of application state. 
+   * Self descriptive messages - Each message may contain additional information to tell the recipient how to process it. Information such as format(JSON/XML), size,payload itself and other metadata information included in the message can be used by the receipt for processing. 
+     An HTTP message provides headers to organize the various types of metadata into uniform fields, Eg: Content-type(used to specify the format of the message), Content-length (used to specify the size of the payload).
+   * Hypermedia as the engine of application state - A resource state information may include links to other resources. These links provides information on what to do next and how to traverse through other related resources in a meaningful manner. Example: AFter getting information about the account, the user might want to deposit, withdraw or transfer money, so the response of a RESTful service providing the account info may include links for the next action that the customer may want to do. 
+
+ Resource Identifier Design Using URIs. 
 
 
  
