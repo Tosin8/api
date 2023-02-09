@@ -192,7 +192,15 @@ An API GATEWAY should provide the capability to meause, monitor and report aPI u
    Every collection and resource in an API has its own URL. It's recommended to design URLs using an alternate combination of collection/resource path segments, relative to the API entry point. 
 
   URI FORMAT 
-   URI is a compact string of characters for identifying an abstract or physical resource. This identifier can be realized in one of two ways: as a Uniform Resource Locator(URL) or a Uniform Resource Name(URN)
+   URI is a compact string of characters for identifying an abstract or physical resource. This identifier can be realized in one of two ways: as a Uniform Resource Locator(URL) or a Uniform Resource Name(URN). 
+    URLs are used to identify the online location of an individual resource, URNs (eg urn:user:mike) are intended to be persistent,location independed identifiers. It defines an item's identity (the user's name is Mike) and the URL provides a method for finding it (Mike can be found at www.foo.com/users/)
+
+  HTTP Verbs for RESTful APIs 
+   HTTP verbs form an important part of a RESTful API design. The verbs perform the CRUD operations on the resource as follows: 
+    * POST : to create a new instance of the resource
+    * GET: used to read 
+    * PUT: used to update 
+    * DELETE: to delete. 
 
 
  
