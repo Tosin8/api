@@ -234,11 +234,15 @@ Audience for API documentation
    - Endpoint (It's the entry point for the API, defining the URL that clients need to use to invoke the API)
    - Method (it defines the HTTP verbs)
    - URL parameters (it define the parameter names and their format used in the API call as a query string)
-   - Message payload
-   - Header parameters
-   - Response code 
-   - Error code
-   - A sample request and response
+   - Message payload (it should specify the structure and format of the request and reponse message, JSON and XML are the most common formats used for a REST API)
+   - Header parameters (it specify the standard and custom HTTP headers included in the request and reponse headers)
+   - Response code (the HTTP response codes that the client can expect from the API under various conditions should be included in documentation)
+   - Error code (the responses status API consumer can except in different error scenarios)
+   - A sample request and response ()
    - Tutorials and walkthrough
-   - Service level agreement
+   - Service level agreement (it defines API's non-functional requirements)
+
+   API documentation standards (frameworks) are: Swagger, RAML and API blueprint. 
+
+Chapter 5: API Patterns
 
