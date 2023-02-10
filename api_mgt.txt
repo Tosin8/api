@@ -245,4 +245,4 @@ Audience for API documentation
    API documentation standards (frameworks) are: Swagger, RAML and API blueprint. 
 
 Chapter 5: API Patterns
-
+Disclaimer: APIs should be designed for longevity, any change to an API carries the risk of breaking the clients' application code. 
