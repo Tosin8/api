@@ -265,4 +265,8 @@ Best practices for building a pragmatic RESTful API
  13. Handle errors using HTTP status code and appropriate error messages - in case of errors, APIs should respond with useful error messages in a consumable format. The error response payload should at a minimum communicate the following: a. Error message code - a unique alphanumeric code to uniquely identify the error   b. Error message - a brief summary of the error   c. Error description/reason - a description/reason for the error. 
 
  API Management Patterns
- 
+ * enterprise services provide access to Assets and Legacy systems. 
+ * SOAP and REST APIs are the two most common implementation technologies used for building services. (An API mgt plaform is used to transform and manage these services to make them more flexible,scalable and secure). 
+  
+  Differs patterns are: 
+  1. API facade pattern - 
