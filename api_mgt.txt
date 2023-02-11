@@ -250,4 +250,13 @@ Disclaimer:
 * Building APIs from robust and proven patterns fosters a happy developer community and saces teh company a lot of cash. 
 
 Best practices for building a pragmatic RESTful API
-
+ 1. Design APIs with RESTful URLs - It should point to either a collection of resources/subresources or an individual entity within the collection. 
+ 2. Use HTTP verbs for CRUD action on resources. - Using the HTTP verbs. (POST, GET, PUT etc)
+ 3. Use operation in the URL when HTTP verb can't map to the action. 
+ 4. Use SSL/TLS for all communications with REST APIs. - it exposes enterprise data and assets. Manual authentication with SSL/TLS can help the server to validate the identify of the client in addition to ther client validating the server. 
+ 5. Do not redirect from non-SSL API endpoints to SSL endpoints. 
+ 6. API versions - versioning iterates and improves APIs by providing a smooth transition path. Version inforamtion can be included in custom HTTP header. 
+ 7. Design the API interface to support filerting on the result set - client app using the API would obtain a lean and filerting response for a GET request. 
+ 8. Design the API to support pagination - pagination is a good feature useful in handling large responses from an API, the filtered response from backend service for an API may contain hundreds of records. pagination parameters in the request as query parameters 'limit' and 'offset',most common query parameters to specify pagination requirements. 
+ 9. Return resource representation in response to creating and updating - the response for POST,PUT and PATCH operations results in creating/updating a resource. successful execution of a POST request should return a HTTP 201 created status code along the 'Location' header containing the URL of the newly created resource. 
+ 10. Use HTTP headers to specify the media type for the message payload. 
