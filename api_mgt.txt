@@ -269,4 +269,9 @@ Best practices for building a pragmatic RESTful API
  * SOAP and REST APIs are the two most common implementation technologies used for building services. (An API mgt plaform is used to transform and manage these services to make them more flexible,scalable and secure). 
   
   Differs patterns are: 
-  1. API facade pattern - 
+  1. API facade pattern - The API facade patterns helps the API team create developer friendly API designs and connect to complex enterprise legacy record systems.It comes in handy for creating a simple API interface for a set of complext backend systems that are hard to change for digital transformation. This pattern provides a layer between the backend systems and the consumer apps. This layer not only build a simple API interface but can alos implement other functionalities such as security,data transformation,version mgt, orchestration, error handling, routing and much more. 
+  2. API composition - The client app has to be built so that it makes multiple calls directly to services, negotiates any security challenges and does data format changes as required. An API gateway is a server that acts as a single pont of entry into the system. It encapsulates the internal system architecture and provides an API that is customized for the client. 
+  3. Session Mgt - API services should be designed to be stateless, but sometimes state mgt becomes necessary for designing an app with better user experience. Shopping cart, hotel booking are some examples where session mgt is necessary. Sessions maintain the client context on the server. 
+
+Two phase transaction mgt
+ 
