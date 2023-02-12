@@ -275,4 +275,8 @@ Best practices for building a pragmatic RESTful API
 
 Two phase transaction mgt
 In a two-phase transaction, the transaction coordinator prepares the participating resources for a transaction in the first step. If the first step is successful, the commit is issued to the participating resources in the second step.
+Managing all transaction from the client app is going to result in a chatty conversation. The complex processing logic in the app for transaction coordination and management definitely yields a poor app performance. The solution is to handle the conversation from an API facade.The logic to prepare, commit, and roll back two-phase transaction management is implemented in the facade. 
+
+Synchronous to Asynchronous Mediation
+
  
