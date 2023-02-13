@@ -296,3 +296,9 @@ The back end to which the request should be routed may have to be dynamically de
 >>>>>>> Stashed changes
 
 Api throttling 
+When an enterprise opens their API to the external world, it is expeceted to see an increase in the API traffic, developers using these to build new innovative apps. To maintain the overall traffic within the capacity limits of the backend systems by throttling the API. 
+
+Common apporaches to throttling 
+* Spike arrest
+* Rate limit / quota
+* Concurrent backend connections
