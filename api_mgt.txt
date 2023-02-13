@@ -274,9 +274,25 @@ Best practices for building a pragmatic RESTful API
   3. Session Mgt - API services should be designed to be stateless, but sometimes state mgt becomes necessary for designing an app with better user experience. Shopping cart, hotel booking are some examples where session mgt is necessary. Sessions maintain the client context on the server. 
 
 Two phase transaction mgt
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 In a two phase transaction, the transaction coordinator prepares the participating resources for a transaction in the first step, if the first step is successful, the commit is issued to the participating resources in the second step. 
 =======
 In a two phase transaction, the transaction coordinator prepares the participating resources for a transaction in the first step. 
+=======
+In a two-phase transaction, the transaction coordinator prepares the participating resources for a transaction in the first step. If the first step is successful, the commit is issued to the participating resources in the second step.
+Managing all transaction from the client app is going to result in a chatty conversation. The complex processing logic in the app for transaction coordination and management definitely yields a poor app performance. The solution is to handle the conversation from an API facade.The logic to prepare, commit, and roll back two-phase transaction management is implemented in the facade. 
+
+Synchronous to Asynchronous Mediation
+
+Routing
+In a complex service composition scenario, the routing rules may not be fixed.
+The back end to which the request should be routed may have to be dynamically determined based on parameters in the incoming request. 
+
+
+
+>>>>>>> 54ffe5fa50f869ba34cbe5ce85845605fa656615
  
 >>>>>>> Stashed changes
+
+Api throttling 
