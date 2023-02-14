@@ -303,4 +303,5 @@ Common apporaches to throttling
 * Rate limit / quota
 * Concurrent backend connections
 
-Caching : 
+Caching : Cache pattern can be used within an API gateway to cache backend responses or any information required for processing the request. 
+* Each cache request 
