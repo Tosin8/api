@@ -302,3 +302,5 @@ Common apporaches to throttling
 * Spike arrest
 * Rate limit / quota
 * Concurrent backend connections
+
+Caching : 
