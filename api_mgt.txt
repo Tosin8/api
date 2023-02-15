@@ -306,4 +306,8 @@ Common apporaches to throttling
 Caching : Cache pattern can be used within an API gateway to cache backend responses or any information required for processing the request. 
 * Each cache request 
 
-Logging and monitoring
+- Logging and monitoring
+- API analtyics
+
+API security patterns
+Needing visibilty into API program to measure the success and make strategic investments. 
