@@ -311,3 +311,10 @@ Caching : Cache pattern can be used within an API gateway to cache backend respo
 
 API security patterns
 Needing visibilty into API program to measure the success and make strategic investments. 
+
+Common forms of attack
+* DoS attack
+* Scripting attacks
+* Eavesdropping
+* Session attack
+* Cross site scripting 
