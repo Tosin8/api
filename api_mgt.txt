@@ -313,8 +313,8 @@ API security patterns
 Needing visibilty into API program to measure the success and make strategic investments. 
 
 Common forms of attack
-* DoS attack
-* Scripting attacks
-* Eavesdropping
+* DoS attack - Malicious users flood the system with high volume API traffic that the backend systems can't handle, bringing it to a halt. 
+* Scripting attacks - attackers inject malicious code into the system to get access and possibly tamper backend data and assets. 
+* Eavesdropping - 
 * Session attack
 * Cross site scripting 
