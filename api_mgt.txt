@@ -315,6 +315,6 @@ Needing visibilty into API program to measure the success and make strategic inv
 Common forms of attack
 * DoS attack - Malicious users flood the system with high volume API traffic that the backend systems can't handle, bringing it to a halt. 
 * Scripting attacks - attackers inject malicious code into the system to get access and possibly tamper backend data and assets. 
-* Eavesdropping - 
-* Session attack
-* Cross site scripting 
+* Eavesdropping - the hackers gain access to an API request or response while the data is in transit over a nonsecure API communication channel. 
+* Session attack - the hackers gain access to the session ID used by a user/app, this info is then used for personalification and access to the user's account and resources. 
+* Cross site scripting (XSS) - this is a special form of scripting attack that takes advantage of known vulnerability in a website or webapp. 
