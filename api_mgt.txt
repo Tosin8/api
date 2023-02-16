@@ -318,3 +318,6 @@ Common forms of attack
 * Eavesdropping - the hackers gain access to an API request or response while the data is in transit over a nonsecure API communication channel. 
 * Session attack - the hackers gain access to the session ID used by a user/app, this info is then used for personalification and access to the user's account and resources. 
 * Cross site scripting (XSS) - this is a special form of scripting attack that takes advantage of known vulnerability in a website or webapp. 
+
+API Risk Mitigation best practices
+Controlling access to an API should authenticate and authorize users/apps making API calls and being able to scan incoming messages for well formedness and any potential threats in it. 
