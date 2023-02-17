@@ -327,3 +327,10 @@ Controlling access to an API should authenticate and authorize users/apps making
 Chapter 6 - API version management. 
 
  API versioning vs software versioning
+  - Every software release is versioned, 
+  Common format for versioning software is: <MajorVersion>.<MinorVersion>.<PatchVersion><OptionalPackageIdentifier> 
+  Example: v2.4.16-RC4 (the checksum of the software package is normally used to identify a particular version, if the checksum changes, the version is considered different) but it doesn't apply to REST API versioning because if a new version is introduced for every minor chang to the API, it causes maintainance nightmare. 
+  - The REST API version should correspond to the service version and not the software/the package version implementing the service. 
+  A new API version should be created only when there's change in the service interface or the contract that is being used by the client. 
+
+The need to version APIs  
