@@ -321,3 +321,7 @@ Common forms of attack
 
 API Risk Mitigation best practices
 Controlling access to an API should authenticate and authorize users/apps making API calls and being able to scan incoming messages for well formedness and any potential threats in it. 
+
+................................... Continues chapter 5 later. 
+
+Chapter 6 - API version management. 
