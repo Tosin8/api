@@ -325,3 +325,5 @@ Controlling access to an API should authenticate and authorize users/apps making
 ................................... Continues chapter 5 later. 
 
 Chapter 6 - API version management. 
+
+ API versioning vs software versioning
