@@ -351,3 +351,10 @@ Chapter 6 - API version management.
  * Versions using query parameters 
  * Versions using a host name 
  * Handling requests for deprecated versions   
+
+ API version lifecyle management 
+ * Common Approaches: 
+   - Announce new upcoming version and versioning schedules, if any in the API developer portal
+   - Send emails to registered developers about upcoming new API versions
+   - introduced warning headers in alerts on older versions being deprecated
+   - define a migration period and cut off date for support to older API versions. 
