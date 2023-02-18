@@ -333,4 +333,21 @@ Chapter 6 - API version management.
   - The REST API version should correspond to the service version and not the software/the package version implementing the service. 
   A new API version should be created only when there's change in the service interface or the contract that is being used by the client. 
 
-The need to version APIs  
+ The need to version APIs
+ An API defines a contract for communication between the client and a server hosting a resource to operate on them. 
+ * The client may want to create, read, update or delete a resource as defiend in the contract. 
+ * Changes may or maynot be backward compatible. If the changes compatible, it may be possible to handle it within the same API version. 
+ * Versoning APIs helps maintain compatibility, enabling debugging and dependency control. 
+
+ API versoning principles
+ * An API version should not to break any existing clients
+ * Keep frequency of major API versions to a minimum
+ * Make backeward compatible changes and avoid making new API version
+ * API versoning should not be directly tied to software versioning 
+
+ Approaches to API version management
+ * Versons using URLs - eg. http://www.foo.com/v1/customers
+ * Versons using an HtTP header 
+ * Versions using query parameters 
+ * Versions using a host name 
+ * Handling requests for deprecated versions   
