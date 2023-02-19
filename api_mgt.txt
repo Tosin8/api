@@ -371,5 +371,13 @@ API Security Threats
   - man in the middle attacks
   - DDos Attacks ( distributed denial of service)
 
+ API authentication and authorization 
+  The forms used for API security are : 
+   - API keys 
+   - Username and password 
+   - sAML 
+   - OAuth 
+   - OpenID Connect 
+   - X.509 client certificates and mutual authentication
 
 
