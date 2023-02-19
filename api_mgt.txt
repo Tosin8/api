@@ -358,3 +358,9 @@ Chapter 6 - API version management.
    - Send emails to registered developers about upcoming new API versions
    - introduced warning headers in alerts on older versions being deprecated
    - define a migration period and cut off date for support to older API versions. 
+
+API Security
+ 
+
+
+
