@@ -360,7 +360,16 @@ Chapter 6 - API version management.
    - define a migration period and cut off date for support to older API versions. 
 
 API Security
- 
+ The need for API security 
+  - API allow consumers to interact with and accesss an enterprise's data and service. Exposing assets helps enterprises grow business and revenue. 
+
+API Security Threats 
+ - Different API security threats can be classified into: 
+  - authentication 
+  - authorization
+  - message or content level attacks
+  - man in the middle attacks
+  - DDos Attacks ( distributed denial of service)
 
 
 
