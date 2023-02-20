@@ -386,8 +386,8 @@ API Security Threats
   Example:  The username John and password john@123, results in a header that looks like - Authorization: Basic Sm9objhwohwoshe==
   Note: HTTp basic authentication is the most common form of authentication,and supported by nearly all clients and servers and easy to implement without the need for any special processing. 
    - sAML 
-   - OAuth 
+   - OAuth : 
    - OpenID Connect 
-   - X.509 client certificates and mutual authentication : 
+   - X.509 client certificates and mutual authentication : it contains a public key that validates an end entity, such as web server or an application and being a username/password for authentication purposes in application to application communication. 
 
 
