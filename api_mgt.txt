@@ -377,10 +377,17 @@ API Security Threats
    Note: 
    a. When a devloper registers his app with an API provider, a unique API key is provided to the developer, making the developer to secretly store this API key and use it in teh app requests when making an API call from the application. 
    b. An API key is normally a long alphanumeric string that is opaque and without any signature or encryption, making it to be less secure for authentication purposes and it is best use for auditing and identification. 
-   - Username and password : 
+   - Username and password : in the form of authentication, the client prsents the server with a unique name (username) and a secret code (password). The server validates the username and password against its credential store and provides access to the client only on successful validation. 
+   As per the scheme, the clients sends the server authentication credientials using authorization header and it is constructed as follows: 
+      * The username and password are combined with a single colon (:)
+      * The resulting string is then Base64 encoded
+      * The authorization method and a space (Basic) are then entered before the encoded string 
+    
+  Example:  The username John and password john@123, results in a header that looks like - Authorization: Basic Sm9objhwohwoshe==
+  Note: HTTp basic authentication is the most common form of authentication,and supported by nearly all clients and servers and easy to implement without the need for any special processing. 
    - sAML 
    - OAuth 
    - OpenID Connect 
-   - X.509 client certificates and mutual authentication
+   - X.509 client certificates and mutual authentication : 
 
 
