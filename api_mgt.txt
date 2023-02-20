@@ -373,8 +373,11 @@ API Security Threats
 
  API authentication and authorization 
   The forms used for API security are : 
-   - API key: It identifies the application using an API and provides simple mechanism to authenticate the apps and they are generally long series of random characters typically passed as an HtTP query parameter or header, making it easy to use an API key in an API request for application authentication. Another name for API keys are: app ID, client ID, app key or consumer key. 
-   - Username and password 
+   - API key: It identifies the application using an API and provides simple mechanism to authenticate the apps and they are generally long series of random characters typically passed as an HtTP query parameter or header, making it easy to use an API key in an API request for application authentication. Another name for API keys are: app ID, client ID, app key or consumer key.
+   Note: 
+   a. When a devloper registers his app with an API provider, a unique API key is provided to the developer, making the developer to secretly store this API key and use it in teh app requests when making an API call from the application. 
+   b. An API key is normally a long alphanumeric string that is opaque and without any signature or encryption, making it to be less secure for authentication purposes and it is best use for auditing and identification. 
+   - Username and password : 
    - sAML 
    - OAuth 
    - OpenID Connect 
