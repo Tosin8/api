@@ -400,7 +400,24 @@ API Security Threats
        * access tokens : it allows access to a protected resource for a specific application to perform only certain actions for A LIMITED PERIOD OF TIME, they tends to be a long string of characters that serve as a credential and are generally passed as bearer tokens in an authorization header and it has a expiry duration and can be refreshed using refresh tokens for a certain grant types. 
        * refresh tokens : it represent a limited right to reauthorize the granted access by obtaining new access tokens. 
   - Scope: it identifies what an application can do with the resources that is requesting access to, scope names are identified by the authorization server and are associated with information that enables decisions on whether a given API request is allowed or not.
-  - Grant type:  
+  - Grant type: it can be thought of as the interactions that an app goes through to get an access token. It defines the following four grant types: 
+     * Authorization code: tends to be of the most commonly used grant type, considered the most secure because it involves authorization from the end user, who actually owns the resources. It's been similar to signing into an app using a facebook/google account. 
+     It involves 3 parties: a. End user  b. Client app  c. Authorization server 
+     The high-level process are: 
+       - Generate an authorization code. (* The end user logs in and grants consent to the application to access resources. * the authorization server generates authorization code that contains the scope information for which authorization was given )
+       - Exchange authorization code for access token. 
+       - Use the access token, the client app uses the generated access to make API calls. 
+     * Client credientials: it's being suitable for machine to machine interaction and does not require any user permissions to access data. 
+      The high-level flow sequence: 
+       - Generate access token (*the client sends a message with its identity and the scope of access required to the authorization server. * the authorization server validates the client's identity and issues an access token)
+       - Use the access token. The client app uses the generated access token to make API calls. 
+     * Resource owner password credentials: it used when the end user's credentials need to be authenticated before access can be granted. 
+       The high-level flow sequence: 
+        - Generate access token (* the client sends a request with its identity, scope and the user's username and password)
+        - The authorization server validates the client's identity and user credentials. 
+     * Implicit 
+
+     Disclaimer: Each of the grant types have their own pros and cons.  
 
 
 
