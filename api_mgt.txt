@@ -399,6 +399,8 @@ API Security Threats
    - Tokens: They are issued to allow access to specific resources for a specific resources for a SPECIFIC PERIOD OF TIME and may be revoked by the user that granted permission/by the server that issued the token. Two kinds of tokens used in the OAuth flow are: 
        * access tokens : it allows access to a protected resource for a specific application to perform only certain actions for A LIMITED PERIOD OF TIME, they tends to be a long string of characters that serve as a credential and are generally passed as bearer tokens in an authorization header and it has a expiry duration and can be refreshed using refresh tokens for a certain grant types. 
        * refresh tokens : it represent a limited right to reauthorize the granted access by obtaining new access tokens. 
-    - Scope:       
+  - Scope: it identifies what an application can do with the resources that is requesting access to, scope names are identified by the authorization server and are associated with information that enables decisions on whether a given API request is allowed or not.
+  - Grant type:  
+
 
 
