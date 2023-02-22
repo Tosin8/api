@@ -413,8 +413,8 @@ API Security Threats
        - Use the access token. The client app uses the generated access token to make API calls. 
      * Resource owner password credentials: it used when the end user's credentials need to be authenticated before access can be granted. 
        The high-level flow sequence: 
-        - Generate access token (* the client sends a request with its identity, scope and the user's username and password)
-        - The authorization server validates the client's identity and user credentials. 
+        - Generate access token (* the client sends a request with its identity, scope and the user's username and password *The authorization server validates the client's identity and user credentials. * the authorization server issues an access token). 
+        - Use the access token, the client app uses the generated access token to make API calls.  
      * Implicit 
 
      Disclaimer: Each of the grant types have their own pros and cons.  
