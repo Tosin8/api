@@ -387,7 +387,17 @@ API Security Threats
   Note: HTTp basic authentication is the most common form of authentication,and supported by nearly all clients and servers and easy to implement without the need for any special processing. 
    - sAML 
    - OAuth : it's a protocol that allows clients to get access to server resources without sharing credentials. Using OAuth tokens for API security makes APIs more resilient to security breaches, since they don't rely on passwords. 
+
+    OAuth basic concepts : 
+     * Actors in OAuth - It defines a sequence of message exchanges that need to happen between the various parties to grant the client access to a server resource - the various actors are 'resource owner, client, resource server and authorization server'. 
+     * Resource owner - is the end user who authorize an application to access various resource in their account. 
+     * Client - it's the application that is trying to get access to a resource owner's account. 
+     * Resource server - it hosts the protected resources of the user. In the API world, it's the server where the API resource are hosted, eg Facebook is the resource server hosting the API to view/edit photos and user activity. Access to the API resources is allowed only after the client has been authorized by the resource owner or the user. 
+     * Authorization server - it validates the identity of the user and then issues the access token to the client, which can be used to get access to resources. 
    - OpenID Connect 
    - X.509 client certificates and mutual authentication : it contains a public key that validates an end entity, such as web server or an application and being a username/password for authentication purposes in application to application communication. 
+   - Tokens: They are issued to allow access to specific resources for a specific resources for a SPECIFIC PERIOD OF TIME and may be revoked by the user that granted permission/by the server that issued the token. Two kinds of tokens used in the OAuth flow are: 
+       * access tokens
+       * refresh tokens
 
 
