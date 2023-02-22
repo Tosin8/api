@@ -397,7 +397,8 @@ API Security Threats
    - OpenID Connect 
    - X.509 client certificates and mutual authentication : it contains a public key that validates an end entity, such as web server or an application and being a username/password for authentication purposes in application to application communication. 
    - Tokens: They are issued to allow access to specific resources for a specific resources for a SPECIFIC PERIOD OF TIME and may be revoked by the user that granted permission/by the server that issued the token. Two kinds of tokens used in the OAuth flow are: 
-       * access tokens
-       * refresh tokens
+       * access tokens : it allows access to a protected resource for a specific application to perform only certain actions for A LIMITED PERIOD OF TIME, they tends to be a long string of characters that serve as a credential and are generally passed as bearer tokens in an authorization header and it has a expiry duration and can be refreshed using refresh tokens for a certain grant types. 
+       * refresh tokens : it represent a limited right to reauthorize the granted access by obtaining new access tokens. 
+    - Scope:       
 
 
