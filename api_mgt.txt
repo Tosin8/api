@@ -423,3 +423,10 @@ API Security Threats
 
 
 Chapter 8: API Monetization 
+Which digital assets can be monetized? 
+  With APIs, usage and billing inforamation can be tracked in real time. 
+  For example - 
+    * Digital content such as maps, images and analtyical data. 
+    * Digital services such as address vertification, credit checks, messaging and location services. 
+    * payment gateway providers charging a certain percentage fee for every payment transaction processed through thier gateway. 
+    * APIs facilitating the sales of products on an ecommerce plaform. 
