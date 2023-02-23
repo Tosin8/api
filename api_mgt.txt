@@ -419,5 +419,7 @@ API Security Threats
 
      Disclaimer: Each of the grant types have their own pros and cons.  
 
+.......................... Lecture to be continued. .....................
 
 
+Chapter 8: API Monetization 
