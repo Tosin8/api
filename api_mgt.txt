@@ -433,3 +433,8 @@ Which digital assets can be monetized?
 
   Increasing revenue using APIs? 
    * Increasing customer channels 
+
+..........................Lecuture to be continued ...................
+
+
+API TESTING STRATEGY 
