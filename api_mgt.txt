@@ -438,3 +438,8 @@ Which digital assets can be monetized?
 
 
 API TESTING STRATEGY 
+API testing concerates on testing the bizness logic of the remote software component and its communication mechanism. 
+* API testing is performed using special purpose software that sends requests to the API and reads the response received. 
+
+The Importance of API testing
+* 
