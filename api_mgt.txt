@@ -430,3 +430,6 @@ Which digital assets can be monetized?
     * Digital services such as address vertification, credit checks, messaging and location services. 
     * payment gateway providers charging a certain percentage fee for every payment transaction processed through thier gateway. 
     * APIs facilitating the sales of products on an ecommerce plaform. 
+
+  Increasing revenue using APIs? 
+   * Increasing customer channels 
