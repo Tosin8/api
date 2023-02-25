@@ -442,4 +442,8 @@ API testing concerates on testing the bizness logic of the remote software compo
 * API testing is performed using special purpose software that sends requests to the API and reads the response received. 
 
 The Importance of API testing
-* 
+* An API exposes biz data/services through a defined standard based interface (developers use the interface to build applications that are dependent on the API, these application use the API per the defined contract). 
+* The API response depends on the input data and parameter combination, the API traffic pattern alos varies by app usage. 
+* The API should be tested against all expected data inputs to validate that it's behaving as defined in the contract. 
+
+Challenges in API testing
