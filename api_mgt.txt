@@ -16,6 +16,7 @@ API - has a well defined contracts, other applications depend on this to use it.
 
 Defining an API and its characteristics
  * An API defines the contract of a software components in terms of the protocol, data format and the endpoint for two computer applications to communicate with each other over a network. 
+
 ( In summary: APIs are a set of requirements that govern how two applications can talk to each other). 
  * An APi provides a framework for building SERVICES that can be consumed over HTTP by a wide range of clients running on different platforms eg. iPhone, Tablets, Connected Cars etc. 
 
