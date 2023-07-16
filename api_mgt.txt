@@ -5,11 +5,14 @@ Chapter 1: Introdution to APIs
 
 What is API? Application Programming Interface. 
  * An API is a software to software Interface that defines the contract for Applications to talk to each other over a network without user Interaction. 
+
  * API can be thought of as windows to the code base - they clearly define exactly how a program will interact with the rest of the software application, saving time and resources and avoiding any potential  legal entanglements along the way. 
+
  * The contract defines the protocol, the input and output formats and the underlying data types to be used for the software components to interact. 
 
 APIs are different from Web Sites
- * Websites publish information that can be consumed by a user, but don't have contracts ( the layout, content and the look and feel can change without prior notice to the users). API - has a well defined contracts, other applications depend on this to use it. If the contract changes , there will be a ripple effect on the apps built using the contract, changes could be in the business logic, or the back-end infrastructure or the interface defining the API contract. 
+ * Websites publish information that can be consumed by a user, but don't have contracts ( the layout, content and the look and feel can change without prior notice to the users). 
+API - has a well defined contracts, other applications depend on this to use it. If the contract changes , there will be a ripple effect on the apps built using the contract, changes could be in the business logic, or the back-end infrastructure or the interface defining the API contract. 
 
 Defining an API and its characteristics
  * An API defines the contract of a software components in terms of the protocol, data format and the endpoint for two computer applications to communicate with each other over a network. ( In summary: APIs are a set of requirements that govern how two applications can talk to each other). 
