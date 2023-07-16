@@ -15,7 +15,8 @@ APIs are different from Web Sites
 API - has a well defined contracts, other applications depend on this to use it. If the contract changes , there will be a ripple effect on the apps built using the contract, changes could be in the business logic, or the back-end infrastructure or the interface defining the API contract. 
 
 Defining an API and its characteristics
- * An API defines the contract of a software components in terms of the protocol, data format and the endpoint for two computer applications to communicate with each other over a network. ( In summary: APIs are a set of requirements that govern how two applications can talk to each other). 
+ * An API defines the contract of a software components in terms of the protocol, data format and the endpoint for two computer applications to communicate with each other over a network. 
+( In summary: APIs are a set of requirements that govern how two applications can talk to each other). 
  * An APi provides a framework for building SERVICES that can be consumed over HTTP by a wide range of clients running on different platforms eg. iPhone, Tablets, Connected Cars etc. 
 
  The following info on API should be made available by the API provider: 
@@ -29,6 +30,7 @@ Defining an API and its characteristics
 Types of API. 
  * Divided into two categories: Public and Private API (partner API - used for B2B partner integration and internal APIs - used for internal application integration and B2E apps)
  An internal APi can ease and streamline internal application integrations, and to be used for internal developers for building mobile apps for an organization's own use. 
+
  * Cons of Public APIs: 
    - It can significantly add a lot of management overhead. Example: When a lot of third party apps are actively using an API, it is challenging to upgrade the interface without impacting the apps that are in production. 
    - Increase security risks : whenever an enterprise uses public API, they used to build in additional layers of security to protect their systems from hackers via these Apis. 
